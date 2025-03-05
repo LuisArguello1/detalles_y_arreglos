@@ -1,0 +1,199 @@
+.contenedor-footer{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.contendido-footer{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    border-top: 5px solid #AE5A82;
+}
+.contenido-derechos{
+    width: 100%;
+    height: 50px;
+    color: #CACACA;
+    text-align: center;
+    align-content: center;
+    background-color: #1b1b1b;
+}
+.contenedor-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+}
+.svg-footer{
+    width: 15%;
+    height: 30%;
+}
+.contenedor-logo-p{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p-footer-bottom{
+    color: #AE5A82;
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.contenedor-center{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
+    font-family: "Poppins";
+    padding-top: 30px;
+}
+.p-footer-center{
+    width: 90%;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.p-footer-center-large{
+    width: 90%;
+    height: auto;
+    text-align: left;
+    font-size: 15px;
+}
+.contenedor-right{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
+    font-family: "Poppins";
+    padding-top: 30px;
+}
+.p-footer-right{
+    width: 90%;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.svg-nav-footer-right{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
+}
+.box-nav-svg-footer-right{
+    width: 15%;
+    height: 55px;
+    border: 1px solid #AE5A82;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1B1B;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s; 
+}
+.box-nav-svg-footer-right:hover{
+    transform: scale(1.05) rotate(360deg);
+}
+.svg-nav{
+    width: 80%;
+    height: 80%;
+}
+.custom-class{
+    font-size: 50px;
+    width: auto;
+}
+@media(max-width: 376px){
+    .custom-class{
+        font-size: 40px;
+        width: auto;
+    }
+}
+@media(max-width: 767px){
+    .contendido-footer{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 250px);
+        border-top: 5px solid #AE5A82;
+    }
+    .p-footer-center-large{
+        width: 90%;
+        height: auto;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .svg-nav-footer-right{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+    }
+}
+@media(min-width: 768px) and (max-width: 1026px){
+    .custom-class{
+        font-size: 30px;
+        width: auto;
+    }
+    .p-footer-bottom{
+        color: #AE5A82;
+        font-family: "Dancing Script";
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .p-footer-center-large{
+        width: 90%;
+        height: auto;
+        text-align: justify;
+        font-size: 13px;
+    }
+    .svg-nav-footer-right{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+    }
+    .box-nav-svg-footer-right{
+        width: 15%;
+        height: 45px;
+        border: 1px solid #AE5A82;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1B1B1B;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: transform 0.3s; 
+    }
+}
