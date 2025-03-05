@@ -1,6 +1,6 @@
 .contenedor-header {
   width: 90%;
-  height: 80vh;
+  height: auto;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
 }
 .card-header {
   width: 47%;
-  height: 90%;
+  height: auto;
   border: 3px solid #fe7848;
   border-radius: 35px;
   display: flex;
@@ -44,10 +44,12 @@
   align-items: center;
   flex-wrap: wrap;
   background-color: transparent;
+  padding: 10px;
+
 }
 .card-header2 {
   width: 47%;
-  height: 90%;
+  height: auto;
   border: 3px solid #ae5a82;
   border-radius: 35px;
   display: flex;
@@ -55,6 +57,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 10px;
 }
 .p-titulo-card-header {
   width: 100%;
@@ -105,6 +108,7 @@
   justify-content: center;
   align-items: center;
   gap: 1em;
+  margin: 80px 0px;
 }
 .svg-flor-header{
   width: 12%;

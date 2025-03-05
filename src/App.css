@@ -12,4 +12,9 @@
   background-color: black;
   overflow-x: hidden;
 }
+.background-app{
+  width: 100%;
+  height: 30vh;
+  background-image: linear-gradient(to bottom, #ae5a82, #81445e, #552f3e, #2d1b21, #000000);
+}
 

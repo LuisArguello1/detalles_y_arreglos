@@ -8,12 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="contenedor-app-principal">
-      <Aurora
-        colorStops={["#AB00B7", "#FF94B4", "#AB00B7"]}
-        blend={0.5}
-        amplitude={2.0}
-        speed={1.5}
-      ></Aurora>
+      <div className="background-app"></div>
       <Header></Header>
       <ProductosPresentar></ProductosPresentar>
       <Footer></Footer>
